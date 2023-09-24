@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajeev  Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="logo"
+            id="header-img"
+          />
+          <span class="the-product">Classic Cars</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#audio" class="nav-link">Car Update</a></li>
+          <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="email-section">
+      <h2>Please register here</h2>
+      <form action="https://www.classiccars.com/email-submit" id="form">
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Enter your email address"
+          name="email"
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+    </section>
+
+
+
+
+
+
+    <section id="features">
+      <div class="feature">
+        <i class="ri-home-line ri-roadster-line icon"></i>
+        <div>
+          <h2>Premium Cars</h2>
+          <p>
+            Our Cars use the best material which is sourced from Germany. This will
+            increase the longevity of your purchase. Premium cars are typically four-door saloon rides or larger.
+			That sets them aside from the luxury cars is the features and trim level
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-truck-fill ri-4x icon"></i>
+        <div>
+          <h2>1 week Delivery</h2>
+          <p>
+            We make sure you receive your classic car as soon as possible so
+            that you can start riding immediately. We also provide free returns
+            if you are not satisfied
+          </p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+          <h2>Quality Cars Only</h2>
+          <p>
+            We make sure to only provide awesome classic cars. We guarantee
+            that the book you buy is one of the top classic cars on the market.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="audio">
+      <iframe
+        id="video"
+        height="400"
+        src="https://www.youtube.com/watch?v=-yZcHWawTEA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+    <section id="for_sale">
+      <h2>For Sale</h2>
+      <div class="product-cards">
+        <div class="card">
+          <div class="product-image product1"></div>
+          <div class="inner-card">
+            <div class="author">Hyundai</div>
+
+            <h1 class="header">Hyundai Grandeuer</h1>
+
+            <p class="content">
+              Although it looks fit for the road, the GRANDEUR Heritage Series sedan will never make production. 
+			  Instead, the Heritage project is a chance for us to look at our back catalog to inspire our future designs.
+			  
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$30,600</p>
+              <p class="old-price"> $38,000</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <!-- CAR TWO -->
+        <div class="card">
+          <div class="product-image product2"></div>
+          <div class="inner-card">
+            <div class="author">BMW</div>
+
+            <h1 class="header"> BMW M2 CS</h1>
+
+            <p class="content">
+               It's the BMW M2 CS that really stands out as the BMW future classic from the range. 
+			   It's powered by a 450 bhp engine with your choice of a six-speed manual and seven-speed auto. 
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$84,595</p>
+              <p class="old-price">$84,000</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+        <!-- CAR THREE -->
+        <div class="card">
+          <div class="product-image product3"></div>
+          <div class="inner-card">
+            <div class="author">Rolls Royce</div>
+
+            <h1 class="header">Rolls-Royce Silver Cloud III Drophead Coupé</h1>
+
+            <p class="content">
+              The Silver Cloud III arrived in 1963. External dimensions were slightly altered, 
+			  the interior remodelled, the weight reduced by a little over 100 kg (220 lb)
+            </p>
+
+            <div class="flex">
+              <p class="main-price">$97,823</p>
+              <p class="old-price">$95,000</p>
+            </div>
+
+            <button class="add">
+              <p style="margin-left: 5px">Add to Cart</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
